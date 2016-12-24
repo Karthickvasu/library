@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="mystyle.css">
+	<title>Aspire Systems</title>
+	<style>
+		body
+		{
+			background-color:rgb(185,253,255);
+		}
+		h1
+		{
+			text-align:center;
+			color:blue;
+		}
+		
+
+	</style>
+</head>
+	
+<body>
+	<h1>Welcome to Aspire Systems</h1>
+	<hr style="color:red;">
+	
+	<ul>
+  		<li><a href="#home">Home</a></li>
+  		<li><a href="#contact">Contact Us</a></li>
+  		<li><a href="#about">About Us</a></li>
+	</ul>
+
+	<hr style="color:red;">
+	
+	<form name="myform" action="submit.html" method="post">
+		<fieldset>
+			<legend>New Employee Personal Information</legend>
+			<table>
+			
+				
+				<tr>
+					<td>Name:</td>
+					<td class="text"><input type="text" name="name" placeholder="Name"></td>
+				</tr>
+				<tr>
+					<td>SurName:</td>
+					<td class="text"><input type="text" name="surname" placeholder="SurName"></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td>
+						<input type="radio" name="gender" value="male" checked> Male
+  						<input type="radio" name="gender" value="female"> Female
+  						<input type="radio" name="gender" value="thirdgender"> Third Genter
+					</td>
+				</tr>
+				<tr>
+					<td>E-mail:</td>
+					<td><input type="email" name="email" placeholder="Enter Your Email ID"></td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td><textarea cols="30" rows="05" name="address" placeholder="Address"></textarea></td>
+				</tr>
+				<tr>
+					<td>Department:</td>
+					<td>
+						<select name="department">
+							<option value="trainee">IMPACT Trainin</option>
+							<option value="java">JAVA</option>
+							<option value="lamp">LAMP</option>
+							<option value=".net">Dot NET</option>	
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" name="submit" value="OK">
+						<input type="reset" name="reset" value="RESET">
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+
+		
+</body>
+
+</html>
+
