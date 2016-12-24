@@ -1,0 +1,7 @@
+mysql> CREATE TABLE user (sid int(5) NOT NULL primary key auto_increment,
+sname varchar(20) not null,email varchar(50) not null,uname varchar(20) not null,password varchar(20));
+
+mysql> insert into user (sname,email,uname,password) values('vasu','m.k@.com',12,12);
+
+CREATE TABLE book(sno int(5) NOT NULL primary key auto_increment,bid int(5) NOT NULL,
+bname varchar(50) not null,aname varchar(50) not null,type varchar(30));

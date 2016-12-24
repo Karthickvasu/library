@@ -1,0 +1,53 @@
+
+
+
+#container { 
+	width: 245px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.footer {
+	background-color: #CDCDCD;
+	padding: 0.3em;
+}
+.textarea
+{
+width:80px;
+height:300px;
+font-family:verdana;
+font-size:12px;
+background-color:#FFCCCC;
+border:1px solid green;
+}
+
+.leightbox {
+	color: #333;
+	display: none;
+	position: absolute;
+	top: 15%;
+	left: 24%;
+	width: 60%;
+	height: 85%;
+	border: 5px solid skyblue;
+	padding:0px 5px 5px 5px;
+	background-color: #FFFFFF;
+	text-align: left;
+	z-index:1001;
+	overflow: auto;	
+}
+
+#overlay{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:60%;
+	height:100%;
+	z-index:1000;
+	background-color:#333;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+.lightbox[id]{ /* IE6 and below Can't See This */    position:fixed;    }#overlay[id]{ /* IE6 and below Can't See This */    position:fixed;    }
