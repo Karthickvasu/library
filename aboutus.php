@@ -11,13 +11,6 @@
             <div class="banner_textarea"></div>
             <div id="body_area">
                 <div class="left">
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
                     <div class="morelinks_top"></div>
                     <div class="morelinks_area">
                         <div class="morelinks_head">Categories</div>
