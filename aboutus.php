@@ -37,8 +37,7 @@
                 </div>
             </div>
             <div class="morelinks_head">Catagories </div>
-            <a href="index.html" class="morelink">Home</a><br /><br>  
-        </div>
+            <a href="index.html" class="morelink">Home</a><br /><br> 
             <div class="right_bottom"></div>
             <span>I added new line here</span>                          
     </form>
